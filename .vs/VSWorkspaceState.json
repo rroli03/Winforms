@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Hotcakes_orders",
+    "\\Hotcakes_orders\\Hotcakes_orders"
   ],
-  "SelectedNode": "\\C:\\Users\\Roli\\Source\\Repos\\Winforms",
+  "SelectedNode": "\\Hotcakes_orders\\Hotcakes_orders\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
