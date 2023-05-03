@@ -72,8 +72,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.ProductsDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ProductsDataGridView.Location = new System.Drawing.Point(9, 40);
-            this.ProductsDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.ProductsDataGridView.Location = new System.Drawing.Point(14, 62);
             this.ProductsDataGridView.Name = "ProductsDataGridView";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -85,30 +84,33 @@
             this.ProductsDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.ProductsDataGridView.RowHeadersWidth = 51;
             this.ProductsDataGridView.RowTemplate.Height = 24;
-            this.ProductsDataGridView.Size = new System.Drawing.Size(796, 274);
+            this.ProductsDataGridView.Size = new System.Drawing.Size(1194, 422);
             this.ProductsDataGridView.TabIndex = 0;
             // 
             // textBoxName
             // 
             this.textBoxName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxName.Location = new System.Drawing.Point(16, 393);
+            this.textBoxName.Location = new System.Drawing.Point(24, 605);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(148, 26);
             this.textBoxName.TabIndex = 3;
             // 
             // textBoxPrice
             // 
             this.textBoxPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBoxPrice.Location = new System.Drawing.Point(168, 393);
+            this.textBoxPrice.Location = new System.Drawing.Point(252, 605);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPrice.Size = new System.Drawing.Size(148, 26);
             this.textBoxPrice.TabIndex = 4;
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(120, 15);
+            this.textBoxSearch.Location = new System.Drawing.Point(180, 23);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(100, 20);
+            this.textBoxSearch.Size = new System.Drawing.Size(148, 26);
             this.textBoxSearch.TabIndex = 5;
             this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
@@ -116,18 +118,20 @@
             // 
             this.checkBoxAvailable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxAvailable.AutoSize = true;
-            this.checkBoxAvailable.Location = new System.Drawing.Point(329, 396);
+            this.checkBoxAvailable.Location = new System.Drawing.Point(494, 610);
+            this.checkBoxAvailable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxAvailable.Name = "checkBoxAvailable";
-            this.checkBoxAvailable.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxAvailable.Size = new System.Drawing.Size(22, 21);
             this.checkBoxAvailable.TabIndex = 6;
             this.checkBoxAvailable.UseVisualStyleBackColor = true;
             // 
             // buttonRefresh
             // 
             this.buttonRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonRefresh.Location = new System.Drawing.Point(649, 319);
+            this.buttonRefresh.Location = new System.Drawing.Point(974, 491);
+            this.buttonRefresh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonRefresh.Name = "buttonRefresh";
-            this.buttonRefresh.Size = new System.Drawing.Size(75, 23);
+            this.buttonRefresh.Size = new System.Drawing.Size(112, 35);
             this.buttonRefresh.TabIndex = 7;
             this.buttonRefresh.Text = "Frissítés";
             this.buttonRefresh.UseVisualStyleBackColor = true;
@@ -136,9 +140,10 @@
             // buttonDelete
             // 
             this.buttonDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonDelete.Location = new System.Drawing.Point(730, 319);
+            this.buttonDelete.Location = new System.Drawing.Point(1095, 491);
+            this.buttonDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(75, 23);
+            this.buttonDelete.Size = new System.Drawing.Size(112, 35);
             this.buttonDelete.TabIndex = 8;
             this.buttonDelete.Text = "Törlés";
             this.buttonDelete.UseVisualStyleBackColor = true;
@@ -147,9 +152,10 @@
             // buttonSave
             // 
             this.buttonSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonSave.Location = new System.Drawing.Point(404, 391);
+            this.buttonSave.Location = new System.Drawing.Point(606, 602);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 23);
+            this.buttonSave.Size = new System.Drawing.Size(112, 35);
             this.buttonSave.TabIndex = 9;
             this.buttonSave.Text = "Mentés";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -158,9 +164,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 18);
+            this.label1.Location = new System.Drawing.Point(20, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
+            this.label1.Size = new System.Drawing.Size(148, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "Termékek keresése";
             // 
@@ -168,9 +175,10 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 345);
+            this.label2.Location = new System.Drawing.Point(20, 531);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.Size = new System.Drawing.Size(168, 20);
             this.label2.TabIndex = 11;
             this.label2.Text = "Új termék hozzáadása";
             // 
@@ -178,9 +186,10 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 377);
+            this.label3.Location = new System.Drawing.Point(20, 580);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 12;
             this.label3.Text = "Termék név";
             // 
@@ -188,9 +197,10 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(165, 377);
+            this.label4.Location = new System.Drawing.Point(248, 580);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(80, 20);
             this.label4.TabIndex = 13;
             this.label4.Text = "Termék ár";
             // 
@@ -198,17 +208,18 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(306, 377);
+            this.label5.Location = new System.Drawing.Point(459, 580);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
+            this.label5.Size = new System.Drawing.Size(95, 20);
             this.label5.TabIndex = 14;
             this.label5.Text = "Elérhetőség";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 463);
+            this.ClientSize = new System.Drawing.Size(1239, 712);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -222,7 +233,6 @@
             this.Controls.Add(this.textBoxPrice);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.ProductsDataGridView);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
@@ -234,8 +244,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView ProductsDataGridView;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxPrice;
         private System.Windows.Forms.TextBox textBoxSearch;
@@ -248,6 +256,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.DataGridView ProductsDataGridView;
     }
 }
 
