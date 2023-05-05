@@ -83,10 +83,10 @@ namespace Hotcakes_orders
 
             dt.Columns.Add("Bvin", typeof(string));
             dt.Columns.Add("Sku", typeof(string));
-            dt.Columns.Add("Termék név", typeof(string));
-            dt.Columns.Add("Termék ár", typeof(string));
-            dt.Columns.Add("Elérhetőség", typeof(string));
-            dt.Columns.Add("Létrehozás dátuma", typeof(DateTime));
+            dt.Columns.Add("ProductName", typeof(string));
+            dt.Columns.Add("SitePrice", typeof(string));
+            dt.Columns.Add("IsAvailableForSale", typeof(string));
+            dt.Columns.Add("CreationDateUtc", typeof(DateTime));
 
 
             foreach (ProductDTO item in deserializedResponse.Content)
