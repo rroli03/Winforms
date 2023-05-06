@@ -17,6 +17,9 @@ namespace Hotcakes_orders
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            
+            //Ha nincs internet épp, és tesztelni szeretnénk a programot futás közben, akkor a TestableApi-val kell indítani.
+            //Application.Run(new Form1(new TestableApi()));
         }
     }
 }
