@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\UnitTest\\UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\Hotcakes_orders\\Hotcakes_orders.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\Hotcakes_orders\\Hotcakes_orders.csproj",
+        "projectName": "Hotcakes_orders",
+        "projectPath": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\Hotcakes_orders\\Hotcakes_orders.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\UnitTest\\UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Szilágyi Dorka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Szilágyi Dorka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\Hotcakes_orders\\Hotcakes_orders.csproj": {
+                "projectPath": "C:\\Users\\Szilágyi Dorka\\Downloads\\UnitTest\\Hotcakes_orders\\Hotcakes_orders\\Hotcakes_orders.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
