@@ -1,0 +1,225 @@
+﻿++Solution 'Hotcakes_orders' ‎(2 of 2 projects)
+++UnitTest
+i:{00000000-0000-0000-0000-000000000000}:UnitTest
+++Dependencies
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:>10
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:>80
+++UnitTest1.cs
+++Analyzers
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:analyzers
+++Frameworks
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:frameworks
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:frameworks
+++Packages
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:packages
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:packages
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\ordertest\microsoft.netcore.app
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\unittest\microsoft.netcore.app
+++coverlet.collector (3.1.0)
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:>19
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:>90
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:>18
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:>87
+++MSTest.TestAdapter (2.2.7)
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:>20
+++MSTest.TestFramework (2.2.7)
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:>17
+++Hotcakes_orders
+i:{00000000-0000-0000-0000-000000000000}:Hotcakes_orders
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\hotcakes_orders.csproj
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\hotcakes_orders.csproj
+++Connected Services
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\connected services\
+++Properties
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\
+++References
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++App.config
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\app.config
+++Form1.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\form1.cs
+++Form1.Designer.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\form1.designer.cs
+++Form1.resx
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\form1.resx
+++packages.config
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\packages.config
+++Program.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\program.cs
+++DataSources
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\
+++AssemblyInfo.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\assemblyinfo.cs
+++Resources.resx
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\resources.resx
+++Settings.settings
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\settings.settings
+++Hotcakes.CommerceDTO
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++Microsoft.CSharp
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++Newtonsoft.Json
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Core
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Data
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Data.DataSetExtensions
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Deployment
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Drawing
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Net.Http
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Windows.Forms
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Xml
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++System.Xml.Linq
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:
+++Hotcakes.CommerceDTO.v1.ApiError.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.apierror.datasource
+++Hotcakes.CommerceDTO.v1.ApiOperation.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.apioperation.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.CatalogRoleDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.catalogroledto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.CategoryDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.categorydto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.CategoryPeerSetDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.categorypeersetdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.CategoryProductAssociationDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.categoryproductassociationdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.CategorySnapshotDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.categorysnapshotdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ClearProductsData.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.clearproductsdata.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.GiftCardDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.giftcarddto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.OptionDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.optiondto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.OptionItemDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.optionitemdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.OptionSelectionDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.optionselectiondto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.OptionSettingDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.optionsettingdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.PageOfProducts.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.pageofproducts.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductDescriptionTabDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productdescriptiontabdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductFileDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productfiledto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductImageDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productimagedto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductInventoryDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productinventorydto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductPropertyChoiceDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productpropertychoicedto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductPropertyDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productpropertydto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductRelationshipDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productrelationshipdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductReviewDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productreviewdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductVariantSkuUpdateDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productvariantskuupdatedto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductVolumeDiscountDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.productvolumediscountdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.ProductTypeDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.producttypedto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.VariantDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.variantdto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.VariantOptionDataDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.variantoptiondatadto.datasource
+++Hotcakes.CommerceDTO.v1.Catalog.WishListItemDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.catalog.wishlistitemdto.datasource
+++Hotcakes.CommerceDTO.v1.Client.Api.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.client.api.datasource
+++Hotcakes.CommerceDTO.v1.Client.RestHelper.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.client.resthelper.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.AddressDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.addressdto.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.AffiliateDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.affiliatedto.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.AffiliateReferralDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.affiliatereferraldto.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.PhoneNumberDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.phonenumberdto.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.PriceGroupDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.pricegroupdto.datasource
+++Hotcakes.CommerceDTO.v1.Contacts.VendorManufacturerDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.contacts.vendormanufacturerdto.datasource
+++Hotcakes.CommerceDTO.v1.CustomPropertyDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.custompropertydto.datasource
+++Hotcakes.CommerceDTO.v1.IApiResponse.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.iapiresponse.datasource
+++Hotcakes.CommerceDTO.v1.Marketing.DiscountDetailDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.marketing.discountdetaildto.datasource
+++Hotcakes.CommerceDTO.v1.Membership.CustomerAccountDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.membership.customeraccountdto.datasource
+++Hotcakes.CommerceDTO.v1.Membership.UserSearchCriteriaDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.membership.usersearchcriteriadto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.LineItemDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.lineitemdto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderCouponDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordercoupondto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.orderdto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderNoteDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordernotedto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderPackageDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.orderpackagedto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderPackageItemDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.orderpackageitemdto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderSnapshotDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordersnapshotdto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderTransactionCardDataDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordertransactioncarddatadto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderTransactionDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordertransactiondto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.OrderTransactionGiftCardDataDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.ordertransactiongiftcarddatadto.datasource
+++Hotcakes.CommerceDTO.v1.Orders.SalesSummaryDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.orders.salessummarydto.datasource
+++Hotcakes.CommerceDTO.v1.Shipping.ShippableItemDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.shipping.shippableitemdto.datasource
+++Hotcakes.CommerceDTO.v1.Taxes.TaxDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.taxes.taxdto.datasource
+++Hotcakes.CommerceDTO.v1.Taxes.TaxScheduleDTO.datasource
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\datasources\hotcakes.commercedto.v1.taxes.taxscheduledto.datasource
+++Resources.Designer.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{efc558dc-e430-4192-aa92-5173a2e49447}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\hotcakes_orders\properties\settings.designer.cs
+++Projects
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:projects
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:projects
+++OrdersTest.cs
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\unittest\orderstest.cs
+++Solution 'Hotcakes_orders' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:Hotcakes_orders.sln
+++OrderTest
+i:{00000000-0000-0000-0000-000000000000}:OrderTest
+++C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.203\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++NUnit (3.13.2)
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:>88
+++NUnit3TestAdapter (4.0.0)
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:>89
+++TestOrder.cs
+i:{48f84646-dd39-41ec-af57-8c5516d41af5}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\ordertest\testorder.cs
+++Microsoft.WindowsDesktop.App.WindowsForms
+i:{84826542-42b5-4863-a74f-2ede58f7b812}:c:\users\szilágyi dorka\source\repos\unittest\hotcakes_orders\unittest\microsoft.windowsdesktop.app.windowsforms

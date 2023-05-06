@@ -20,21 +20,40 @@ namespace Hotcakes_orders
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        //Amikor a Unit Tesztek futnak, akkor egy olyan API implementáció kerül létrehozásra, ami nem végez valódi hálózati hívásokat,
+        //hanem előre beégetett válaszokkal tér vissza.
+        //TestableApi.cs találod: előre beégetett API válaszokat.
+        //Az ApiImplementation.cs file amiatt kellett, hogy az eredeti API osztály tesztelhető legyen.
+        //A közös Interface az IApi.cs amit mind a kettő API osztály megkapott. A TestableApi és az ApiImplementation, ami az eredeti API ből leszármazott osztály, csak amiatt, hogy az interface-t megkapja.
+
+        //A Program.cs ben könnyen ki lehet próbálni, ha úgy indítod a programot, hogy paraméterben a TestableApi kerül példányosításra, akkor a tesztadatokkal fog futni a program
+        //ugyanúgy, mint amikor a Unit tesztek is indulnak az OrderedTest.cs -ben.
+
+        private readonly IApi api;
+
+        public Form1(IApi testableApi = null)
         {
             InitializeComponent();
+
+            if (testableApi != null)
+            {
+                api = testableApi;
+            }
+            else 
+            {
+                string url = "http://20.234.113.211:8103/";
+                string key = "1-8823ae01-abac-4ede-8316-c937104be727";
+
+                api = new ApiImplementation(url, key);
+            }
+
             GetOrders();
         }
 
         public void GetOrders()
         {
-            string url = "http://20.234.113.211:8103/";
-            string key = "1-8823ae01-abac-4ede-8316-c937104be727";
-
-            Api proxy = new Api(url, key);
-
             // call the API to find all orders in the store
-            ApiResponse<List<OrderSnapshotDTO>> response = proxy.OrdersFindAll();
+            ApiResponse<List<OrderSnapshotDTO>> response = api.OrdersFindAll();
             string json = JsonConvert.SerializeObject(response);
 
             ApiResponse<List<OrderSnapshotDTO>> deserializedResponse = JsonConvert.DeserializeObject<ApiResponse<List<OrderSnapshotDTO>>>(json);
@@ -53,21 +72,16 @@ namespace Hotcakes_orders
             ProductsDataGridView.DataSource = dt;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
             GetProducts();
         }
 
-        private void GetProducts()
+        public void GetProducts()
         {
-            string url = "http://20.234.113.211:8103/";
-            string key = "1-8823ae01-abac-4ede-8316-c937104be727";
-
-            Api proxy = new Api(url, key);
-
-            ApiResponse<List<ProductDTO>> response = proxy.ProductsFindAll();
+            ApiResponse<List<ProductDTO>> response = api.ProductsFindAll();
            //ApiResponse<List<CategoryDTO>> response1 = proxy.CategoriesFindAll();
-            ApiResponse<List<CategorySnapshotDTO>> response1 = proxy.CategoriesFindAll();
+            ApiResponse<List<CategorySnapshotDTO>> response1 = api.CategoriesFindAll();
             //ApiResponse<List<CategorySnapshotDTO>> response3 = proxy.CategoriesFindForProduct(productID);
 
 
@@ -116,22 +130,17 @@ namespace Hotcakes_orders
             }
         }
 
-        private void buttonDelete_Click(object sender, EventArgs e)
+        public void buttonDelete_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Biztos törölni szeretnéd?", "Törlés megerősítés", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 // your existing code to delete the selected row
-                string url = "http://20.234.113.211:8103/";
-                string key = "1-8823ae01-abac-4ede-8316-c937104be727";
-
-                Api proxy = new Api(url, key);
-
                 int rowIndex = ProductsDataGridView.CurrentCell.RowIndex;
                 int selectedRowIndex = ProductsDataGridView.CurrentRow.Index;
                 // get the productId from the first column of the selected row
                 var productId = ProductsDataGridView.Rows[rowIndex].Cells[0].Value.ToString();
 
-                ApiResponse<bool> response = proxy.ProductsDelete(productId);
+                ApiResponse<bool> response = api.ProductsDelete(productId);
 
                 // refresh the DataGridView
                 GetProducts();
@@ -141,14 +150,14 @@ namespace Hotcakes_orders
             }
         }
 
-        private void buttonRefresh_Click(object sender, EventArgs e)
+        public void buttonRefresh_Click(object sender, EventArgs e)
         {
             GetProducts();
            // textBoxSearch.Clear();
 
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        public void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Biztosan be szeretnéd zárni?", "Ablak bezárásának megerősítése", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
@@ -156,13 +165,8 @@ namespace Hotcakes_orders
             }
         }
 
-        private void buttonSave_Click(object sender, EventArgs e)
+        public void buttonSave_Click(object sender, EventArgs e)
         {
-            string url = "http://20.234.113.211:8103/";
-            string key = "1-8823ae01-abac-4ede-8316-c937104be727";
-
-            Api proxy = new Api(url, key);
-
             var product = new ProductDTO();
 
             var productId1 = textBoxName.Text;
@@ -181,7 +185,7 @@ namespace Hotcakes_orders
             product.IsAvailableForSale = checkBoxAvailable.Checked;
             product.CreationDateUtc= DateTime.Now;
 
-            ApiResponse<ProductDTO> response = proxy.ProductsCreate(product, null);
+            ApiResponse<ProductDTO> response = api.ProductsCreate(product, null);
 
             textBoxName.Clear();
             textBoxPrice.Clear();
@@ -202,9 +206,14 @@ namespace Hotcakes_orders
                       
         }
 
-        private void textBoxSearch_TextChanged(object sender, EventArgs e)
+        public void textBoxSearch_TextChanged(object sender, EventArgs e)
         {
             (ProductsDataGridView.DataSource as DataTable).DefaultView.RowFilter = string.Format("ProductName LIKE '{0}%'", textBoxSearch.Text);
+        }
+
+        private void ProductsDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
